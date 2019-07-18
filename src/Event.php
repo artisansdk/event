@@ -49,7 +49,7 @@ class Event implements Contract
         $this->event = static::class;
 
         $payload = func_num_args() ? func_get_arg(0) : [];
-        foreach ($payload as $key => $value) {
+        foreach ((array) $payload as $key => $value) {
             $this->$key = $value;
         }
     }
