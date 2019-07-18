@@ -3,6 +3,7 @@
 namespace ArtisanSdk\Event;
 
 use ArtisanSdk\Contract\Event as Contract;
+use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Queue\SerializesModels;
 use ReflectionObject;
 
@@ -49,8 +50,13 @@ class Event implements Contract
         $this->event = static::class;
 
         $payload = func_num_args() ? func_get_arg(0) : [];
-        foreach ((array) $payload as $key => $value) {
-            $this->$key = $value;
+        if ($payload instanceof Arrayable) {
+            $payload = $payload->toArray();
+        }
+        if (is_array($payload)) {
+            foreach ($payload as $key => $value) {
+                $this->$key = $value;
+            }
         }
     }
 
