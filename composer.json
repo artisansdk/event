@@ -18,8 +18,8 @@
     "require": {
         "php": ">=7.0",
         "artisansdk/contract": "dev-master",
-        "illuminate/queue": "~5.0",
-        "illuminate/support": "~5.0"
+        "illuminate/queue": "5.0 - 5.8 | ^6.0",
+        "illuminate/support": "5.0 - 5.8 | ^6.0"
     },
     "require-dev": {
         "artisansdk/bench": "dev-master"
