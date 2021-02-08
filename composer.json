@@ -16,10 +16,10 @@
         "sort-packages": true
     },
     "require": {
-        "php": ">=7.0",
+        "php": ">=7.0 | >=8.0",
         "artisansdk/contract": "dev-master",
-        "illuminate/queue": "^5.0 | ^6.0 | ^7.0",
-        "illuminate/support": "^5.0 | ^6.0 | ^7.0"
+        "illuminate/queue": "^5.0 | ^6.0 | ^7.0 | ^8.0",
+        "illuminate/support": "^5.0 | ^6.0 | ^7.0 | ^8.0"
     },
     "require-dev": {
         "artisansdk/bench": "dev-master"
