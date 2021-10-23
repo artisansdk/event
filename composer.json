@@ -1,6 +1,6 @@
 {
     "name": "artisansdk/event",
-    "description": "General purpose event sourcing library for event stores.",
+    "description": "A foundational package for Event Sourcing (ES) using an Event Store database, compatible with Laravel.",
     "type": "library",
     "license": "MIT",
     "authors": [

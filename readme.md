@@ -1,6 +1,7 @@
-# Event
+# Event Store
 
-General purpose event sourcing library for event stores.
+A foundational package for Event Sourcing (ES) using an Event Store database,
+compatible with Laravel.
 
 ## Table of Contents
 
