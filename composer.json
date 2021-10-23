@@ -17,7 +17,6 @@
     },
     "require": {
         "php": ">=7.0 | >=8.0",
-        "ext-ds": "^1.3",
         "artisansdk/contract": "dev-master",
         "php-ds/php-ds": "^1.3",
         "illuminate/queue": "^5.0 | ^6.0 | ^7.0 | ^8.0",
@@ -25,6 +24,9 @@
     },
     "require-dev": {
         "artisansdk/bench": "dev-master"
+    },
+    "suggest": {
+        "ext-ds": "Install the Data Structure extension in order to speed up the event stream processing."
     },
     "autoload": {
         "psr-4": {
