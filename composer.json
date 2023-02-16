@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "Daniel LaBarge",
-            "email": "daniel@artisanscollaborative.com"
+            "email": "daniel@artisanmade.io"
         }
     ],
     "config": {
@@ -18,9 +18,9 @@
     "require": {
         "php": ">=7.0 | >=8.0",
         "artisansdk/contract": "dev-master",
-        "php-ds/php-ds": "^1.3",
-        "illuminate/queue": "^5.0 | ^6.0 | ^7.0 | ^8.0",
-        "illuminate/support": "^5.0 | ^6.0 | ^7.0 | ^8.0"
+        "php-ds/php-ds": "^1.4",
+        "illuminate/queue": "^5.0 | ^6.0 | ^7.0 | ^8.0 | ^9.0 | ^10.0",
+        "illuminate/support": "^5.0 | ^6.0 | ^7.0 | ^8.0 | ^9.0 | ^10.0"
     },
     "require-dev": {
         "artisansdk/bench": "dev-master"
